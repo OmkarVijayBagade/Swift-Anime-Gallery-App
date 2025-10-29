@@ -1,0 +1,78 @@
+{
+  "anime": [
+    {
+      "id": 1,
+      "title": "Attack on Titan",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      "description": "Humanity fights for survival against gigantic Titans beyond the walls."
+    },
+    {
+      "id": 2,
+      "title": "Demon Slayer",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+      "description": "Tanjiro becomes a demon slayer to save his sister and avenge his family."
+    },
+    {
+      "id": 3,
+      "title": "One Piece",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+      "description": "Luffy and his crew sail in search of the legendary treasure, the One Piece."
+    },
+    {
+      "id": 4,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
+      "description": "Two brothers use alchemy to search for the Philosopher's Stone to restore what they lost."
+    },
+    {
+      "id": 5,
+      "title": "My Hero Academia",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+      "description": "A society of heroes and quirks — a young boy trains to become the greatest hero."
+    },
+    {
+      "id": 6,
+      "title": "Steins;Gate",
+      "imageUrl": "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
+      "description": "A lab of misfits discovers they can send messages to the past — consequences follow."
+    }
+  ],
+  "manga": [
+    {
+      "id": 1,
+      "title": "Berserk",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/1/157897.jpg",
+      "description": "A brutal dark-fantasy epic following Guts, a lone mercenary with a cursed fate."
+    },
+    {
+      "id": 2,
+      "title": "Vagabond",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/1/259070.jpg",
+      "description": "A fictionalized account of legendary swordsman Miyamoto Musashi's path to mastery."
+    },
+    {
+      "id": 3,
+      "title": "Monster",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/3/258224.jpg",
+      "description": "A tense psychological thriller about a surgeon chasing a terrible truth across Europe."
+    },
+    {
+      "id": 4,
+      "title": "20th Century Boys",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/2/269277.jpg",
+      "description": "A group of friends confronts a cult-like conspiracy tied to their childhood game."
+    },
+    {
+      "id": 5,
+      "title": "Death Note",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/2/54453.jpg",
+      "description": "A high-schooler finds a notebook that kills anyone whose name is written in it."
+    },
+    {
+      "id": 6,
+      "title": "Pluto",
+      "imageUrl": "https://cdn.myanimelist.net/images/manga/3/258294.jpg",
+      "description": "A mature reinterpretation of a classic robot mystery — deep and somber."
+    }
+  ]
+}

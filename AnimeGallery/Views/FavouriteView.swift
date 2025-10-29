@@ -9,7 +9,32 @@ import SwiftUI
 
 struct FavouriteView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Text(Constants.favouriteString)
+                .font(.largeTitle)
+                .padding()
+            
+            Spacer()
+            
+            Text(Constants.favouriteAnime)
+                .font(.title2)
+                .padding()
+            
+            AsyncImage(url: URL(string: Constants.favouriteAnimeURL)){image in
+                image
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 500)
+                    .shadow(radius: 10)
+                    .clipped()
+                    .cornerRadius(10)
+                
+            }placeholder: {
+                ProgressView()
+            }
+            Spacer()
+        }
     }
 }
 

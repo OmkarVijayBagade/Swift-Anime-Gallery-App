@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct AnimeCategoryData: Codable {
+    let anime: [Anime]
+    let manga: [Anime]
+}
+
+struct Anime: Identifiable, Codable {
+    let id: Int
+    let title: String
+    let imageUrl: String
+    let description: String
+}
+
+

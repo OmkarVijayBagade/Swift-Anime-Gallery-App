@@ -8,10 +8,24 @@
 import SwiftUI
 
 struct LibraryView: View {
+    @StateObject private var viewModel = AnimeViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    
+                    CategoryRowView(title: "Anime", items: viewModel.animeList)
+                    CategoryRowView(title: "Manga / Manhwa", items: viewModel.mangaList)
+                    
+                }
+                .padding()
+            }
+            .navigationTitle("Library")
+            .navigationBarTitleDisplayMode(.large)
+        }
     }
-}
+
 
 #Preview {
     LibraryView()

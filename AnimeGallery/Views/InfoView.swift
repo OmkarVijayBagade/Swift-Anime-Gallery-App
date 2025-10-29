@@ -9,7 +9,27 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("infoPic")
+                .resizable()
+                .ignoresSafeArea()
+                
+            VStack {
+                Text("AnimeGallery")
+                    .font(.largeTitle)
+                    .bold()
+                
+                Spacer()
+                Text(Constants.infoContent)
+                    .font(.title.italic())
+                    .padding(30)
+                
+                Spacer()
+                Text("Developed by Omkar ❤️")
+                    .font(.subheadline)
+            }
+            .padding()
+        }
     }
 }
 

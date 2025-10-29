@@ -9,10 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            TabView {
+                FavouriteView()
+                    .tabItem {
+                        Label(Constants.favouriteString, systemImage: Constants.favouriteIconString)
+                    }
+                
+                NavigationView {
+                    LibraryView()
+                }
+                .tabItem {
+                    Label(Constants.libraryString, systemImage: Constants.libraryIconString)
+                }
+                
+                InfoView()
+                    .tabItem {
+                        Label(Constants.infoString, systemImage: Constants.infoIconString)
+                    }
+            }
+            .tint(.red)
+        }
     }
 }
 
 #Preview {
     ContentView()
 }
+
