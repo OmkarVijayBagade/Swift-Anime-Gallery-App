@@ -29,30 +29,11 @@ It showcases anime data, including titles, descriptions, and images — all pres
 ---
 ## 🖼️ Screenshots
 <p align="center">
-  <figure style="display:inline-block; text-align:center; margin:10px;">
     <img src="screenshots/home.png" alt="Home Screen" width="180"/>
-    <figcaption><b>🏠 Home Screen</b></figcaption>
-  </figure>
-
-  <figure style="display:inline-block; text-align:center; margin:10px;">
     <img src="screenshots/library.png" alt="Library Screen" width="180"/>
-    <figcaption><b>📚 Library</b></figcaption>
-  </figure>
-
-  <figure style="display:inline-block; text-align:center; margin:10px;">
     <img src="screenshots/detailview.png" alt="Detail View" width="180"/>
-    <figcaption><b>🖼️ Detail View</b></figcaption>
-  </figure>
-
-  <figure style="display:inline-block; text-align:center; margin:10px;">
     <img src="screenshots/infoview-light.png" alt="Info View (Light Mode)" width="180"/>
-    <figcaption><b>💡 Info View (Light)</b></figcaption>
-  </figure>
-
-  <figure style="display:inline-block; text-align:center; margin:10px;">
     <img src="screenshots/infoview-dark.png" alt="Info View (Dark Mode)" width="180"/>
-    <figcaption><b>🌙 Info View (Dark)</b></figcaption>
-  </figure>
 </p>
 
 ---
