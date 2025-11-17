@@ -27,6 +27,11 @@ It showcases anime data, including titles, descriptions, and images — all pres
 | IDE | Xcode |
 
 ---
+## 🎥 DEMO
+![animeGallery](https://github.com/user-attachments/assets/cf4f8d10-5c62-4ec7-8255-10358ca6ecf7)
+
+
+---
 ## 🖼️ Screenshots
 <p align="center">
     <img src="screenshots/home.png" alt="Home Screen" width="180"/>
